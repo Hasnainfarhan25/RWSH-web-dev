@@ -1,7 +1,7 @@
 /*
 * Template Name: UntreeStore
-* Template Author: Untree.co
-* Author URI: https://untree.co/
+* Template Author: Habitt.co
+* Author URI: https://Habitt.co/
 * License: https://creativecommons.org/licenses/by/3.0/
 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
@@ -312,13 +312,15 @@ a {
     color: #6a6a6a; }
 
 .we-help-section {
-  padding: 7rem 0; }
-  .we-help-section .imgs-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[27];
-    grid-template-columns: repeat(27, 1fr);
-    position: relative; }
+  padding: 7rem 0;
+}
+
+.we-help-section .imgs-grid {
+  display: grid;
+  grid-template-columns: repeat(27, 1fr);
+  position: relative;
+}
+
     .we-help-section .imgs-grid:before {
       position: absolute;
       content: "";
@@ -507,31 +509,31 @@ a {
 .before-footer-section {
   padding: 7rem 0 12rem 0 !important; }
 
-.blog-section {
+.Habitt Stories-section {
   padding: 7rem 0 12rem 0; }
-  .blog-section .post-entry a {
+  .Habitt Stories-section .post-entry a {
     text-decoration: none; }
-  .blog-section .post-entry .post-thumbnail {
+  .Habitt Stories-section .post-entry .post-thumbnail {
     display: block;
     margin-bottom: 20px; }
-    .blog-section .post-entry .post-thumbnail img {
+    .Habitt Stories-section .post-entry .post-thumbnail img {
       border-radius: 20px;
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease; }
-  .blog-section .post-entry .post-content-entry {
+  .Habitt Stories-section .post-entry .post-content-entry {
     padding-left: 15px;
     padding-right: 15px; }
-    .blog-section .post-entry .post-content-entry h3 {
+    .Habitt Stories-section .post-entry .post-content-entry h3 {
       font-size: 16px;
       margin-bottom: 0;
       font-weight: 600;
       margin-bottom: 7px; }
-    .blog-section .post-entry .post-content-entry .meta {
+    .Habitt Stories-section .post-entry .post-content-entry .meta {
       font-size: 14px; }
-      .blog-section .post-entry .post-content-entry .meta a {
+      .Habitt Stories-section .post-entry .post-content-entry .meta a {
         font-weight: 600; }
-  .blog-section .post-entry:hover .post-thumbnail img, .blog-section .post-entry:focus .post-thumbnail img {
+  .Habitt Stories-section .post-entry:hover .post-thumbnail img, .Habitt Stories-section .post-entry:focus .post-thumbnail img {
     opacity: .7; }
 
 .footer-section {
